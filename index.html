@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presupuesto App</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body>
+    <div class="container">
+      <div class="presupuesto">
+        <h2>Presupuesto</h2>
+        <input type="number" id="presupuestoInput" placeholder="Ingrese su presupuesto" />
+        <button id="calcularBtn">Calcular</button>
+      </div>
+      <div class="gastos">
+        <h2>Gastos</h2>
+        <input type="text" id="NombreGastoInput" placeholder="Nombre del gasto" />
+        <input type="number" id="montoPresupuestoInput" placeholder="Cantidad del gasto" />
+        <button id="agregarGastoInput">Añadir Gasto</button>
+      </div>
+      <div class="summary">
+        <div class="column">
+          <h3>Presupuesto</h3>
+          <p id="montoPresupuesto">0</p>
+        </div>
+        <div class="column">
+          <h3>Gastos</h3>
+          <p id="montoGastos">0</p>
+        </div>
+        <div class="column">
+          <h3>Saldo</h3>
+          <p id="montoBalance">0</p>
+        </div>
+      </div>
+      <div class="gasto-list">
+        <h2>Lista de Gastos</h2>
+        <ul id="listaGastos"></ul>
+      </div>
+    </div>
+  
+    <script src="assets/js/main.js"></script>
+  </body>
+  
+</html>

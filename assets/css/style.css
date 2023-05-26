@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .presupuesto, .gasto, .summary, .gasto-list {
+    margin-bottom: 30px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  header{
+    background-image: url(../img/robotech12131243124.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Open sans;
+    text-shadow: 0px 3px 6px black;
+    text-align: left;
+    color: white;
+    border-radius: 5px;
+  }
+  header h1{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  header h3{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+  }
+  button {
+    margin-top: 10px;
+  }
+  .gasto-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .gasto-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .gasto-list li span {
+    margin-right: 10px;
+  }
+
+  
+  .presupuesto{
+    background-color:red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .gastos{
+    background-color:aquamarine;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .summary{
+    background-color: #E1E1E1;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
